@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-toastr",
+  "name": "react-redux-toastr-custom",
   "version": "7.1.5",
   "description": "react-redux-toastr is a React toastr message implemented with Redux",
   "main": "lib/index.js",
