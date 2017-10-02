@@ -219,7 +219,13 @@ export default class ToastrBox extends React.Component {
   }
 
   toastr() {
-    if (this.props.item.type === 'message') {
+    const {options, type} = this.props.item;
+
+    if (options.customComponent && typeof options.customComponent === 'function') {
+      return options.customComponent();
+    }
+
+    if (type === 'message') {
       return this.renderMessage();
     }
 
