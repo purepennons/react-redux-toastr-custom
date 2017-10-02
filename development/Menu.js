@@ -85,6 +85,21 @@ export default class Menu extends React.Component {
           <li className="message" onClick={() => toastr.confirm('The confirm message')}>
             <span className="icon-check-5"/>
           </li>
+          <li
+            className="custom"
+            onClick={() =>
+              toastr.info('', '', {
+                className: 'no-radius',
+                customComponent: () => <div style={{
+                  padding: '24px',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  boxSizing: 'border-box',
+                }}>Custom Component</div>
+              })}
+          >
+          <span className="icon-double-diamonds" />
+        </li>
       </ul>
     );
   }
