@@ -1,5 +1,8 @@
 ## `react-redux-toastr` [demo](http://diegoddox.github.io/react-redux-toastr/)
 
+## !!!!!This is a fork version from [react-redux-toastr](https://github.com/diegoddox/react-redux-toastr)!!!!!
+The version support `customCompnent` options.
+
 [![NPM](https://nodei.co/npm/react-redux-toastr.png)](https://nodei.co/npm/react-redux-toastr/)
 
 ![react-redux-toastr](https://raw.githubusercontent.com/diegoddox/react-redux-toastr/master/assets/toastr.png?style=centerme)

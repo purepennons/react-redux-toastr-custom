@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegoddox/react-redux-toastr.git"
+    "url": "git+https://github.com/purepennons/react-redux-toastr.git"
   },
   "bugs": {
     "url": "https://github.com/diegoddox/react-redux-toastr/issues"
@@ -130,5 +130,5 @@
     "eventemitter3": "^2.0.3",
     "prop-types": "^15.5.7"
   },
-  "homepage": "https://github.com/diegoddox/react-redux-toastr#readme"
+  "homepage": "https://github.com/purepennons/react-redux-toastr/blob/master/README.md"
 }
